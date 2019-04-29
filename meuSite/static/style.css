@@ -1,5 +1,31 @@
-p{
-    color:blue;
-    font-size: 15pt;
-    font-weight:bold;
+body{ 
+    margin: 0; 
+    background-color: rgba(128, 128, 128, 0.404);
+}
+
+div{
+    background-image: url('https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg');
+    background-size: cover; 
+    border-top: 100px; 
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    
+}
+
+nav img{
+    width: 150px; 
+    height: 100px; 
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    
+}
+
+aside h2{
+    text-align: center;
 }
